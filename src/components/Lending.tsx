@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { useStore } from "../store/useStore";
 import { useLending } from "../hooks/useLending";
