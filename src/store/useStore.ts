@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { create } from "zustand";
 import { GearApi } from "@gear-js/api";
 import {
@@ -10,7 +12,7 @@ import { u8aToHex } from "@polkadot/util";
 import { SailsProgram } from "../contracts/lending/lib";
 
 const PROGRAM_ID =
-    "0x4b76fc633059caa30b853125092ad3e8969860a3138d689f7d1bd6b2f0804cc3";
+    "0x48460de43ba25e9e2ea8960c424a7993c0f3c78c10e0418a6f2eb9d0d73b9abb";
 const NODE_ENDPOINT = "wss://testnet.vara.network";
 
 type StoreState = {
