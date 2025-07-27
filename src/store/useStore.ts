@@ -98,7 +98,7 @@ export const useStore = create<StoreState>((set, get) => ({
     // UI state
     theme: "dark",
     sidebarCollapsed: false,
-    selectedNetwork: "arbitrum",
+    selectedNetwork: "vara",
     pendingTransactions: [],
     isWalletConnected: false,
     walletAddress: null,
